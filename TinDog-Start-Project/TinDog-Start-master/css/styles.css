@@ -1,36 +1,29 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
-#title {
-  color: white;
-  background-color: #ff4c68;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.3rem;
-  line-height: 1.5;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  padding: 3%;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
 }
 
 p {
   color: #8f8f8f;
 }
 
-.container-fluid {
-  padding: 3% 15% 6%;
+/* Headings */
+
+.big-heading {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  padding: 3%;
+  line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -54,13 +47,33 @@ p {
   font-weight: lighter;
 }
 
-/* Download Buttons */
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Titile */
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 6%;
+}
 
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* Titile Image */
 
 .title-img {
   width: 60%;
@@ -71,17 +84,16 @@ p {
 
 /* Features */
 #features {
-  background-color: white;
-  padding: 7% 15%;
   position: relative;
-  text-align: center;
 }
 
 .feature-box {
   padding: 4%;
 }
 
-/* Feature Icon */
+.feature-title {
+  font-size: 1.2rem;
+}
 
 .feature-icon {
   color: #ef8172;
@@ -93,12 +105,15 @@ p {
   color: #ff4c68;
 }
 
-/* Testimonial Section */
+/* Testimonial */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: white;
+}
+
+.testimonial-text {
+  padding: 3%;
+  line-height: 1.5;
 }
 
 .testimonial-img {
@@ -107,15 +122,10 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
-/* Press Section */
+/* Press */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -128,7 +138,15 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.dog-name {
+  font-size: 1.2rem;
+}
+
+.pricing-text {
+  padding: 3%;
+  line-height: 1.5;
 }
 
 .pricing-col {
@@ -136,6 +154,7 @@ p {
 }
 
 /* Media */
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -147,26 +166,7 @@ p {
   }
 }
 
-/* cta */
-
-#cta {
-  background-color: #ff4c68;
-  padding: 5% 15%;
-  text-align: center;
-}
-
-.cta-header {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-}
-
 /* Footer */
-
-#footer {
-  padding: 5% 15%;
-  text-align: center;
-}
 
 .footer-icon {
   padding: 3% 1%;
