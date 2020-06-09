@@ -82,6 +82,23 @@ p {
   position: absolute;
 }
 
+/* Media */
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+    padding-bottom: 65%;
+  }
+
+  .title-img {
+    width: 50%;
+    padding-top: 10%;
+    position: absolute;
+    right: 25%;
+    /* transform: rotate(0); */
+  }
+}
+
 /* Features */
 #features {
   position: relative;
@@ -151,19 +168,6 @@ p {
 
 .pricing-col {
   padding: 3% 2%;
-}
-
-/* Media */
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-img {
-    position: static;
-    transform: rotate(0);
-  }
 }
 
 /* Footer */
