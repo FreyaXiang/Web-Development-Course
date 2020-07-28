@@ -102,6 +102,7 @@ p {
 /* Features */
 #features {
   position: relative;
+  /* z-index: 1; */
 }
 
 .feature-box {
