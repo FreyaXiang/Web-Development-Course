@@ -8,5 +8,11 @@
     "start": "node server.js"
   },
   "author": "Xin Xiang",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "pstree.remy": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
