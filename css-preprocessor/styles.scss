@@ -1,0 +1,21 @@
+// first sass file
+
+$myColor: red;
+$myBackground: pink;
+
+@mixin important-text($color: blue, $width: 3px) {
+    border: $width solid $color;
+}
+
+div {
+    @include important-text($color: yellow);
+    background-color: $myBackground;
+
+    h1 {
+        color: $myColor;
+    }
+
+    span {
+        @extend h1;
+    }
+}

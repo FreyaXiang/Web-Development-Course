@@ -1,0 +1,8 @@
+div {
+  border: 3px solid yellow;
+  background-color: pink;
+}
+
+div h1, div span {
+  color: red;
+}
